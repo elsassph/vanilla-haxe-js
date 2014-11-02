@@ -170,3 +170,5 @@ js.Browser.createXMLHttpRequest = function() {
 };
 Main.main();
 })();
+
+//# sourceMappingURL=vanilla-haxe.js.map

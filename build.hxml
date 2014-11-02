@@ -2,3 +2,4 @@
 -js bin/vanilla-haxe.js
 -main Main
 -debug
+-dce full

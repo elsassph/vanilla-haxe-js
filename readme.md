@@ -2,6 +2,8 @@
 
 Using Haxe as a better JavaScript, just using the DOM API.
 
+The [Haxe SDK](http://haxe.org/download/) has to be installed and the `haxe` command has to be in the PATH.
+
 ## Command line
 	
 	haxe build.hxml

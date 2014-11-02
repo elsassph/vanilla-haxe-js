@@ -15,12 +15,13 @@ module.exports = function(grunt) {
     },
 	
 	haxe: {	
-		app: {
+		dist: {
 			main: 'Main', /*startup class*/
 			classpath: ['src'],
+			misc: ['-debug', '-dce full'],
 			output: 'bin/<%= pkg.name %>.js'
 		}
-		/*app: {
+		/*dist: {
 			hxml: 'build.hxml'
 		}*/ 
 	}
