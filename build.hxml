@@ -1,4 +1,4 @@
 -cp src
--js bin/VanillaJS.js
+-js bin/vanilla-haxe.js
 -main Main
 -debug

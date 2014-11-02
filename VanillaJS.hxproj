@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\VanillaJS.js" />
+    <movie path="bin\vanilla-haxe.js" />
     <movie fps="0" />
     <movie width="0" />
     <movie height="0" />
@@ -45,7 +45,7 @@
   <postBuildCommand alwaysRun="False" />
   <!-- Other project options -->
   <options>
-    <option showHiddenPaths="False" />
+    <option showHiddenPaths="True" />
     <option testMovie="Webserver" />
     <option testMovieCommand="bin/index.html" />
   </options>

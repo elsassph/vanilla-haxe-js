@@ -2,8 +2,20 @@
 
 Using Haxe as a better JavaScript, just using the DOM API.
 
-Building:
-
+## Command line
+	
 	haxe build.hxml
 
-Or open the `.hxproj` project in FlashDevelop and press F5 to build and run in the browser.
+## Grunt
+
+The sample GruntFile uses a Haxe specific task to build the project. 
+
+	npm install -g grunt-cli
+	npm install
+	grunt
+
+See [grunt-haxe on Github](https://github.com/Fintan/grunt-haxe) for the Haxe task documentation.
+
+## FlashDevelop
+
+Open the `.hxproj` project in FlashDevelop and press F5 or Ctrl+Enter to build and run in the browser.
